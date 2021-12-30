@@ -1,1 +1,2 @@
-print(12345)
+prn = print
+prn(12345)

@@ -20,9 +20,9 @@ github:
     addLabel: prebuilt-in-gitpod
 
 tasks:
-  - init: >
-      pyenv virtualenv venv &&  
-      pyenv activate venv && 
+  - init: 
+      pyenv virtualenv venv  
+      pyenv activate venv  
       pip install flask
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/

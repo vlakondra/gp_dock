@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-RUN sudo apt install mc
+RUN sudo apt -y install mc

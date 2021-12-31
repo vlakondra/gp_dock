@@ -26,8 +26,8 @@ tasks:
       # pyenv shell 3.8.12 ??
       # pyenv shell venv
       source activate venv
-      export FLASK_APP = test
-      export FLASK_ENV = development
+      export FLASK_APP=test
+      export FLASK_ENV=development
       pip install Flask
 
     # init: pip install Flask

@@ -24,3 +24,6 @@ tasks:
       pyenv shell venv
   # - init: source activate venv
   - command: pip install flask
+
+
+  flask run --host=0.0.0.0

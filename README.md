@@ -13,3 +13,14 @@ tasks:
   - before: pyenv virtualenv venv 
   - init: pyenv activate venv
   - command: pip install flask
+
+
+-->Работает!!
+  tasks:
+  - name: venv
+    before: |
+      pyenv virtualenv venv 
+      # pyenv shell 3.8.12 ??
+      pyenv shell venv
+  # - init: source activate venv
+  - command: pip install flask

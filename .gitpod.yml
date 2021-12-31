@@ -22,13 +22,14 @@ github:
 tasks:
   - name: venv
     before: |
-      export FLASK_APP = test
-      export FLASK_ENV = development
       pyenv virtualenv venv 
       # pyenv shell 3.8.12 ??
       # pyenv shell venv
       source activate venv
+      export FLASK_APP = test
+      export FLASK_ENV = development
       pip install Flask
+
     # init: pip install Flask
   # - command: pip install flask
 

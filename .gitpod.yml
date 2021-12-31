@@ -20,7 +20,10 @@ github:
     addLabel: prebuilt-in-gitpod
 
 tasks:
-  - before: pyenv virtualenv venv 
+  - before: 
+      pyenv virtualenv venv 
+      pyenv shell 3.8.12
+      pyenv shell shell
   - init: source activate venv
   - command: pip install flask
 

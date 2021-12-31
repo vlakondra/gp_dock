@@ -26,8 +26,8 @@ tasks:
       # pyenv shell 3.8.12 ??
       # pyenv shell venv
       source activate venv
-  # - init: source activate venv
-  - command: pip install flask
+  - init: pip install flask
+  # - command: pip install flask
 
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/

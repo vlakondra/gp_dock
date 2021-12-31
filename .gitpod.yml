@@ -21,7 +21,7 @@ github:
 
 tasks:
   - before: pyenv virtualenv venv 
-  - init: pyenv activate venv
+  - init: source activate venv
   - command: pip install flask
 
 

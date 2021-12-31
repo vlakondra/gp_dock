@@ -28,7 +28,8 @@ tasks:
       # pyenv shell 3.8.12 ??
       # pyenv shell venv
       source activate venv
-    init: pip install Flask
+      pip install Flask
+    # init: pip install Flask
   # - command: pip install flask
 
 

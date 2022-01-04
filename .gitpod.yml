@@ -26,7 +26,8 @@ tasks:
       source activate venv
       export FLASK_APP=test
       export FLASK_ENV=development
-      pip install Flask
+      # pip install Flask
+      pip install dash
 
     # init: pip install Flask
     # command: flask run --host=0.0.0.0

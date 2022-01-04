@@ -27,6 +27,7 @@ tasks:
       export FLASK_APP=test
       export FLASK_ENV=development
       # pip install Flask
+      pip install pandas
       pip install dash
 
     # init: pip install Flask
